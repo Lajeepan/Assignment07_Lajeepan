@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: fantasy;
+}
+.navContainer{
+    display: flex;
+    align-items: center;
+    gap: 500px;
+    height: 50px;
+    background-color: rgb(59, 41, 0);
+    color: white;
+}
+.navLeft{
+    display: flex;
+    padding-left: 50px;
+    align-items: center;
+    
+}
+.navImg{
+    height: 50px;
+}
+.navRight{
+    display: flex;
+    gap: 50px;
+    
+}
+.navRight > a{
+    text-decoration: none;
+    color: white;
+}
