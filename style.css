@@ -120,3 +120,21 @@ button:hover{
     text-align: center;
     font-size: 1.4em;
 }
+
+
+
+.brand > h1{
+    text-align: center;
+    padding-top: 120px;
+    font-size: 2.4em;
+}
+.brandImg{
+    display: flex;
+    gap: 80px;
+    padding-top: 80px;
+    padding-left: 40px;
+}
+.brandImg > img{
+    height: 300px;
+    opacity: 0.3;
+}
