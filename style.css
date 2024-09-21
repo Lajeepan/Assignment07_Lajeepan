@@ -83,7 +83,7 @@ button:hover{
     height: 500px;
 }
 .aboutRight{
-    font-size: x-large;
+    font-size: large;
     color: antiquewhite;
     padding-bottom: 100px;
 }
@@ -91,4 +91,32 @@ button:hover{
     padding-left: 200px;
     padding-bottom: 50px;
     
+}
+
+.menuBar {
+    color: aliceblue;
+    background-color: rgb(54, 36, 3);   
+    margin-top:-25px;
+}
+
+.menuBar > h1{
+    text-align: center;
+    font-size: 2.3em;
+    padding-top: 100px;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 100px;
+}
+
+.menuImg > img{
+    height: 300px;
+    padding: 50px;
+}
+
+.menuImg > h2,p{
+    text-align: center;
+    font-size: 1.4em;
 }
